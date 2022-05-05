@@ -1,0 +1,127 @@
+@import "vars"
+@import "mixin"
+
+/*==========  header  ==========*/
+header
+  padding: 40px 0
+
+.header-top
+  width: 100%
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  padding: 0 0 12px
+  border-bottom: 1px solid $accent
+
+.logo
+  display: flex
+  align-items: center
+  font-size: 18px
+  color: #000000
+  margin: 0 auto 0 0
+  &:hover
+    color: $accent
+
+.logo-icon
+  max-width: 80px
+  width: 100%
+  display: flex
+  align-items: center
+  justify-content: center
+  margin: 0 60px 0 0
+
+.logo-text
+  max-width: 553px
+  width: 100%
+
+.address
+  display: flex
+  align-items: center
+  font-family: $font
+  font-weight: normal
+  font-size: 14px
+  color: #040404
+  margin: 0 37px 0 0
+  &__icon
+    margin: 0 28px 0 0
+    max-width: 20px
+    width: 100%
+    @include d-flex
+  &__text
+    max-width: 196px
+
+.contacts-box
+  margin: 0 auto 0 0
+  display: flex
+  align-items: center
+  &__icon
+    margin: 0 13px 0 0
+    max-width: 20px
+    width: 100%
+    @include d-flex
+  p
+    font-family: $font
+    font-size: 12px
+    margin: 0 0 2px
+    font-weight: normal
+
+.phone
+  color: #040404
+  font-size: 18px
+  &:hover
+    color: $accent
+
+.btn-callback
+  max-width: 218px
+  width: 100%
+  margin: 0 0 0 30px
+
+.header-bottom
+  width: 100%
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  padding: 20px 0 0
+
+.menu
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  font-size: 14px
+  font-weight: 600
+  li
+    margin: 0 45px 0 0
+    &:last-child
+      margin: 0
+    a
+      color: #666666
+      &:hover
+        color: $accent
+
+
+.form-search
+  max-width: 218px
+  width: 100%
+  position: relative
+  margin: 0 0 0 auto
+  input
+    padding: 0 15px
+  button
+    padding: 0
+    background: transparent
+    position: absolute
+    right: 14px
+    top: 50%
+    transform: translate(0,-50%)
+    width: 14px
+    height: 14px
+    fill: none
+    stroke: $accent
+    @include d-flex
+/*==========  header end  ==========*/
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
