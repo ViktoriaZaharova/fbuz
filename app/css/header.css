@@ -140,9 +140,24 @@ header {
     .menu li:last-child {
       margin: 0; }
     .menu li a {
-      color: #666666; }
+      color: #666666;
+      position: relative;
+      z-index: 1; }
+      .menu li a:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 0;
+        height: 100%;
+        background: #59B372;
+        z-index: -1;
+        -webkit-transition: .5s ease;
+        transition: .5s ease; }
       .menu li a:hover {
-        color: #59B372; }
+        color: #fff; }
+        .menu li a:hover:before {
+          width: 100%; }
 
 .form-search {
   max-width: 218px;
@@ -174,5 +189,5 @@ header {
             justify-content: center; }
 
 /*==========  header end  ==========*/
-/*==========  section  ==========*/
-/*==========  section end  ==========*/
+/*==========  mobile menu  ==========*/
+/*==========  mobile menu end  ==========*/
