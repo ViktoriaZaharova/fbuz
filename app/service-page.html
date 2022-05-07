@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>ФЕДЕРАЛЬНОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ ЗДРАВООХРАНЕНИЯ ЦЕНТР ГИГИЕНЫ И ЭПИДЕМИОЛОГИИ В ПЕНЗЕНСКОЙ ОБЛАСТИ</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:image" content="path/to/image.jpg">
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#000">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#000">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+
+<div class="mobile-menu">
+  <div class="btn-close"></div>
+  <form method="post" class="form-search">
+    <label>
+      <input type="text" placeholder="Поиск" name="search" required>
+    </label>
+    <button type="submit">
+      <svg class="svg-icon">
+        <use xlink:href="img/sprite.svg#search"></use>
+      </svg>
+    </button>
+  </form>
+
+  <ul class="menu my-ul">
+    <li><a href="#">Центр гигиены</a></li>
+    <li><a href="#">Деятельность</a></li>
+    <li><a href="#">Документы</a></li>
+    <li><a href="#">ИЛЦ</a></li>
+    <li><a href="#">ИЛЦ филиал по ЖД</a></li>
+    <li><a href="#">Орган инспекции</a></li>
+    <li><a href="#">Обращение граждан</a></li>
+    <li><a href="services.html">Платные услуги</a></li>
+  </ul>
+
+  <div class="address">
+    <div class="address__icon"><img src="img/location.png" alt=""></div>
+    <div class="address__text">ул. Маршала Крылова, дом 3,
+      г. Пенза, 440036
+    </div>
+  </div>
+
+  <div class="contacts-box">
+    <div class="contacts-box__icon"><img src="img/phone.png" alt=""></div>
+    <div class="contacts-box__body">
+      <p>приемная</p>
+      <a href="tel:+78412564697" class="phone">+7 (8412) 56-46-97</a>
+    </div>
+  </div>
+
+  <a href="contacts.html" class="btn btn-border">график работы</a>
+
+  <a href="#" class="btn btn-accent btn-callback" data-toggle="modal" data-target="#callbackModal">отправить
+    обращение</a>
+</div>
+
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="header-top">
+          <a href="index.html" class="logo">
+            <span class="logo-icon"><img src="img/logo.png" alt=""></span>
+            <span class="logo-text">ФЕДЕРАЛЬНОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ ЗДРАВООХРАНЕНИЯ ЦЕНТР ГИГИЕНЫ И ЭПИДЕМИОЛОГИИ В ПЕНЗЕНСКОЙ ОБЛАСТИ</span>
+          </a>
+
+          <div class="address">
+            <div class="address__icon"><img src="img/location.png" alt=""></div>
+            <div class="address__text">ул. Маршала Крылова, дом 3,
+              г. Пенза, 440036
+            </div>
+          </div>
+
+          <div class="contacts-box">
+            <div class="contacts-box__icon"><img src="img/phone.png" alt=""></div>
+            <div class="contacts-box__body">
+              <p>приемная</p>
+              <a href="tel:+78412564697" class="phone">+7 (8412) 56-46-97</a>
+            </div>
+          </div>
+
+          <a href="contacts.html" class="btn btn-border links-schedule">график работы</a>
+
+          <a href="#" class="btn btn-accent btn-callback" data-toggle="modal" data-target="#callbackModal">отправить
+            обращение</a>
+
+          <div class="btn-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <ul class="menu my-ul">
+            <li><a href="#">Центр гигиены</a></li>
+            <li><a href="#">Деятельность</a></li>
+            <li><a href="#">Документы</a></li>
+            <li><a href="#">ИЛЦ</a></li>
+            <li><a href="#">ИЛЦ филиал по ЖД</a></li>
+            <li><a href="#">Орган инспекции</a></li>
+            <li><a href="#">Обращение граждан</a></li>
+            <li><a href="services.html">Платные услуги</a></li>
+          </ul>
+
+          <form method="post" class="form-search">
+            <label>
+              <input type="text" placeholder="Поиск" name="search" required>
+            </label>
+            <button type="submit">
+              <svg class="svg-icon">
+                <use xlink:href="img/sprite.svg#search"></use>
+              </svg>
+            </button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="page page-services">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>ХИМИЧЕСКИЙ АНАЛИЗ ВОДЫ</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-xl-3">
+        <div class="sidebar">
+          <div class="sidebar-box">
+            <h3>Для физических лиц</h3>
+            <a href="#" class="category-service active">Химический анализ почвы</a>
+            <ul class="category-menu my-ul">
+              <li><a href="service-page.html" class="active">Анализ почвы (грунта) на содержание тяжелых металлов</a>
+              </li>
+              <li><a href="#">Анализ почвы на плодородие</a></li>
+              <li><a href="#">Правила отбора почвы для анализа</a></li>
+            </ul>
+            <a href="service-page.html" class="category-service">Химический анализ воды </a>
+          </div>
+
+          <div class="sidebar-box">
+            <h3>Для юридических лиц</h3>
+            <a href="#" class="category-service">Испытательная лаборатория</a>
+            <a href="#" class="category-service">Подготовка отчётности природопользователей</a>
+            <a href="#" class="category-service">Экологическое проектирование</a>
+            <a href="#" class="category-service">Промышленная безопасность и энергоаудит</a>
+            <a href="#" class="category-service">Экологический аудит</a>
+            <a href="#" class="category-service">Специальная оценка условий труда</a>
+            <a href="#" class="category-service">Лицензия на отходы</a>
+            <a href="#" class="category-service">Разработка природоохранной документации</a>
+            <a href="#" class="category-service">Дополнительное профессиональное образование</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-xl-9">
+        <div class="service-page-content">
+          <div class="box-text">
+            <p>Вода — это жидкость, не имеющая ни цвета, ни запаха, но из-за постоянного ухудшения экологической
+              обстановки окружающей среды найти такую воду в естественной природе на сегодняшний день практически нет
+              возможности.</p>
+
+            <p>По этой причине важно помнить, что если Вы хотите использовать воду из колодца, скважины или
+              водопроводного крана и не опасаться за ее качество и возможные последствия после ее употребления, то
+              необходимо обязательно сделать анализ воды.</p>
+          </div>
+
+          <div class="description">
+            <p>Химический анализ воды устанавливает тип загрязнителей и уровень их содержания. После проведения
+              исследования специалисты составляют протокол в соответствии с СанПиН 2.1.4.1074-01 «Гигиенические
+              требования к качеству воды нецентрализованного водоснабжения. Санитарная охрана источников», в котором
+              указываются параметры исследования и ПДК этих параметров.</p>
+
+            <span class="color-accent">Для проведения точного анализа питьевой воды необходимо правильно отобрать пробу и доставить её нам в течение нескольких часов после отбора.</span>
+          </div>
+
+          <div class="question-callback">
+            <div class="question-callback__icon"><img src="img/question.svg" alt=""></div>
+            <p>Оформите заявку на услугу, мы свяжемся с вами в ближайшее время и ответим на все интересующие вопросы</p>
+
+            <a href="#" class="btn btn-md btn-accent" data-toggle="modal" data-target="#callbackModal">оформить
+              заявку</a>
+
+            <a href="#" class="btn btn-md btn-border" target="_blank">скачать пример анализа</a>
+          </div>
+
+          <div class="box-text">
+            <p>«Минимальный список» позволит оценить общую загрязненность воды в соответствии с обязательными
+              требованиями СанПиН .1.4.1074-01:</p>
+
+            <ul>
+              <li>Запах</li>
+              <li>Мутность</li>
+              <li>Цветность</li>
+              <li>Жесткость</li>
+              <li>Аммоний-ион</li>
+              <li>Водородный показатель (рН)</li>
+              <li>Железо общее</li>
+              <li>Нитраты</li>
+              <li>Перманганатная окисляемость</li>
+              <li>Сульфаты</li>
+              <li>Сухой остаток</li>
+              <li>Хлориды</li>
+            </ul>
+
+            <p class="color-accent">Рекомендуется для ежегодного профилактического контроля качества воды из артезианских скважин и колодцев после
+              проведения первичного обследования по расширенному списку.</p>
+
+            <p>Объем пробы воды необходимый для анализа – 2 л.</p>
+          </div>
+        </div>
+
+        <div class="why">
+          <h2>ПОЧЕМУ СТОИТ ОБРАТИТЬСЯ К НАМ</h2>
+
+          <ul>
+            <li>Нашими специалистами анализ воды проводится на высококвалифицированном уровне, и для этого имеются
+              оснащенная аккредитованная лаборатория, собственная измерительная база, все необходимое оборудование и
+              химические реактивы.
+            </li>
+            <li>При необходимости наш специалист выедет по указанному адресу для правильного отбора воды и ее доставки в
+              лабораторию.
+            </li>
+            <li>Стоимость анализа воды – одна из наиболее демократичных в городе, при этом качество предлагаемых услуг
+              остается действительно высоким. Также возможно изменение списка показателей по желанию Заказчика.
+            </li>
+            <li>Анализ воды из скважин и других водных объектов проводится в сжатые сроки, потому Вам не придется долго
+              ждать результатов.
+            </li>
+            <li>Обратившись к нам, Вы всегда можете проконсультироваться с опытными специалистами, получить развернутые
+              ответы на актуальные вопросы.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 d-flex flex-wrap align-items-center">
+        <a href="index.html" class="logo">
+          <span class="logo-icon"><img src="img/logo.png" alt=""></span>
+          <span class="logo-text">Федеральное бюджетное учреждение здравоохранения «Центр гигиены и эпидемиологии в Пензенской области» 2022</span>
+        </a>
+
+        <div class="contacts-box">
+          <div class="contacts-box__body">
+            <p>приемная</p>
+            <a href="tel:+78412564697" class="phone">+7 (8412) 56-46-97</a>
+          </div>
+        </div>
+
+        <div class="address">
+          <div class="address__text">ул. Маршала Крылова, дом 3,
+            г. Пенза, 440036
+          </div>
+        </div>
+
+        <a href="mailto:gigiena@cge58.ru" class="mail color-white">gigiena@cge58.ru</a>
+
+        <a href="contacts.html" class="links links-schedule color-white">график работы</a>
+
+        <a href="#" class="btn btn-border btn-border-white" data-toggle="modal"
+           data-target="#callbackModal">связаться</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Модальное окно -->
+<div class="modal fade" id="callbackModal" tabindex="-1" aria-labelledby="callbackModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Связаться с нами</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        </button>
+      </div>
+      <div class="modal-body">
+        <form method="post" class="form">
+          <label>
+            <input type="text" name="name" placeholder="Ваше имя">
+          </label>
+          <label>
+            <input type="text" name="phone" placeholder="Ваш телефон">
+          </label>
+          <button type="submit" class="btn btn-md btn-accent">Отправить</button>
+
+          <div class="consent">
+            <p>нажимая на кнопку, вы соглашаетесь на обработку персональных данных</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>

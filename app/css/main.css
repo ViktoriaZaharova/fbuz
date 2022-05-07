@@ -35,7 +35,9 @@
           transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
-  border-radius: 10px; }
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover; }
 
 .home-box {
   width: 100%;
@@ -347,7 +349,8 @@
       color: #59B372; }
   .branches-box h4 {
     line-height: 27px;
-    font-size: 18px; }
+    font-size: 18px;
+    margin: 0 0 17px; }
   .branches-box__bottom {
     padding: 33px 0 0;
     display: -webkit-box;
@@ -405,6 +408,10 @@
   padding: 0 90px; }
   .partners-slider .slick-arrow {
     stroke: #59B372; }
+  .partners-slider .slick-prev {
+    left: 0; }
+  .partners-slider .slick-next {
+    right: 0; }
 
 .partners-box {
   height: 151px;
@@ -421,3 +428,232 @@
     max-height: 100%; }
 
 /*==========  section partners end  ==========*/
+/*==========  section services page  ==========*/
+.page {
+  margin: 40px 0 100px; }
+
+.sidebar {
+  width: 100%; }
+
+.sidebar-box {
+  width: 100%;
+  margin: 0 0 27px;
+  border: 1px solid #59B372;
+    border-radius: 5px;
+  padding: 24px 0 10px 29px; }
+  .sidebar-box h3 {
+    margin: 0 0 28px;
+    font-size: 24px; }
+  .sidebar-box:last-child {
+    margin: 0; }
+
+.category-service {
+  padding: 14px 22px 12px;
+  width: 100%;
+  font-size: 18px;
+  color: #8A8A8A; }
+  .category-service:hover {
+    background: #59B372;
+    color: #fff; }
+  .category-service.active {
+    background: #59B372;
+    color: #fff; }
+
+.service-card {
+  width: 100%;
+  margin: 0 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-radius: 5px;
+  background: #fff;
+  -webkit-box-shadow: 0px 7px 21px rgba(0, 0, 0, 0.14);
+          box-shadow: 0px 7px 21px rgba(0, 0, 0, 0.14); }
+  .service-card h3 {
+    font-size: 24px;
+    margin: 0 0 27px; }
+  .service-card__body {
+    width: calc(100% - 427px);
+    padding: 38px 23px 35px 37px; }
+  .service-card .box-text {
+    font-size: 14px;
+    line-height: 17px; }
+  .service-card__footer {
+    max-width: 427px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    background: #F0F0F0;
+    border-radius: 5px;
+    padding: 47px 14px 30px 30px; }
+  .service-card .btn {
+    padding: 0 22px;
+    font-size: 14px;
+    margin: 0 auto 0 0; }
+  .service-card .service-card-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 0 18px;
+    font-size: 14px; }
+    .service-card .service-card-info:last-child {
+      margin: 0; }
+    .service-card .service-card-info__icon {
+      width: 20px;
+      min-width: 20px;
+      margin: 0 15px 0 0; }
+
+.service-page-content {
+  border-bottom: 1px solid #59B372;
+  padding: 0 0 55px; }
+  .service-page-content .box-text {
+    font-size: 24px;
+    line-height: 29px;
+    margin: 0 0 70px; }
+    .service-page-content .box-text:last-child {
+      margin: 0; }
+    .service-page-content .box-text ul {
+      margin: 0 0 30px;
+      font-size: 16px; }
+      .service-page-content .box-text ul li {
+        margin: 0; }
+  .service-page-content .description {
+    margin: 0 0 55px;
+    border-left: 1px solid #59B372;
+    padding: 0 0 0 33px;
+    font-size: 18px;
+    line-height: 22px; }
+    .service-page-content .description p {
+      margin: 0 0 30px; }
+
+.category-menu {
+  margin: 19px 0;
+  font-size: 15px;
+  padding: 0 38px; }
+  .category-menu li {
+    margin: 0 0 10px; }
+    .category-menu li a {
+      padding: 0;
+      color: #8A8A8A; }
+      .category-menu li a:hover {
+        color: #59B372; }
+      .category-menu li a.active {
+        color: #59B372; }
+
+.why {
+  font-size: 24px;
+  margin: 70px 0 0; }
+  .why h2 {
+    margin: 0 0 34px; }
+
+.question-callback {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #fff;
+  -webkit-box-shadow: 0px 7px 21px rgba(0, 0, 0, 0.14);
+          box-shadow: 0px 7px 21px rgba(0, 0, 0, 0.14);
+  border-radius: 5px;
+  padding: 27px 37px 27px 23px;
+  margin: 0 0 64px; }
+  .question-callback__icon {
+    width: 44px;
+    margin: 0 28px 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .question-callback p {
+    max-width: 662px;
+    margin: 0 auto 0 0;
+    font-size: 24px;
+    line-height: 29px; }
+  .question-callback .btn {
+    margin: 0 0 0 28px;
+    padding: 0 20px; }
+  .question-callback .btn-border {
+    padding: 0 25px; }
+
+/*==========  section services page end  ==========*/
+/*==========  section contact page  ==========*/
+.page-contacts {
+  margin: 40px 0 57px; }
+  .page-contacts .phone {
+    color: #8A8A8A;
+    font-size: 36px; }
+  .page-contacts .contacts-box p {
+    font-size: 18px;
+    margin: 0 0 10px;
+    color: #59B372; }
+  .page-contacts .mail {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 24px; }
+  .page-contacts .links-schedule {
+    padding: 0 50px;
+    margin: 113px 0 0; }
+  .page-contacts .address {
+    margin: 55px 0;
+    font-size: 24px;
+    color: #8A8A8A;
+    max-width: 336px;
+    font-family: "Glober", sans-serif; }
+    .page-contacts .address__text {
+      max-width: none; }
+
+.contacts-call {
+  margin: 0 auto;
+  background: #fff;
+  -webkit-box-shadow: 0px 7px 21px rgba(0, 0, 0, 0.14);
+          box-shadow: 0px 7px 21px rgba(0, 0, 0, 0.14);
+  max-width: 343px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 36px 44px 45px; }
+  .contacts-call h3 {
+    font-size: 24px;
+    margin: 0 auto 26px;
+    text-align: center; }
+  .contacts-call .form button {
+    width: 100%;
+    font-size: 18px; }
+
+.map {
+  width: 100%;
+  height: 669px;
+  border-radius: 10px;
+  overflow: hidden; }
+  .map iframe {
+    width: 100%;
+    height: 100%; }
+
+.copyright {
+  margin: -20px 0 0;
+  color: #BCBCBC;
+  font-size: 14px; }
+
+/*==========  section contact page end  ==========*/

@@ -18,22 +18,33 @@ $('.partners-slider').slick({
             }
         },
         {
-            breakpoint: 768,
+            breakpoint: 992,
             settings: {
                 slidesToShow: 3,
             }
         },
         {
-            breakpoint: 576,
+            breakpoint: 768,
             settings: {
                 slidesToShow: 2,
             }
         },
         {
-            breakpoint: 420,
+            breakpoint: 480,
             settings: {
                 slidesToShow: 1,
             }
         }
     ]
 });
+
+$('.btn-burger').on('click', function () {
+   $(this).toggleClass('click');
+   $('.mobile-menu').fadeToggle();
+});
+
+$('.btn-close').on('click', function () {
+    $('.mobile-menu').fadeOut();
+});
+
+$('[name="phone"]').mask('+7 (999) 999 - 99 - 99');
